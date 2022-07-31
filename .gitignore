@@ -1,0 +1,10 @@
+node_modules/
+*.log*
+*.swp
+*.swo
+.vscode
+.DS_Store
+.env
+.env.local
+.eslintcache
+src/
