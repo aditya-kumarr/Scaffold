@@ -2,8 +2,10 @@
   "folders": {
     "primaryFolders": {
       "parent": "src",
+      "type": "primary",
       "folders": [
         "components",
+        "data",
         "containers",
         "hooks",
         "pages",
@@ -14,34 +16,28 @@
     },
     "mainComponents": {
       "parent": "src/components",
+      "type": "components",
       "folders": [
         "navbar",
         "hero",
         "corousel",
         "footer",
         "forms",
-        "data",
         "modal"
       ]
     },
     "mainPages": {
       "parent": "src/pages",
+      "type": "pages",
       "folders": ["home", "about", "contact"]
     }
   },
-  "files":{
-    "parent":"src/pages",
-    "pageFiles":[
-      "home.jsx","contact.jsx"
-    ]
+  "files": {
+    "parent": "src/pages",
+    "pageFiles": ["home.jsx", "contact.jsx"]
   },
-  "packages":{
-    "primary":[
-      "axios","-D tailwindcss","react-icons"
-    ],
-    "routers":[
-      "react-router-dom",""
-    ]
-    
+  "packages": {
+    "primary": ["axios", "-D tailwindcss", "react-icons"],
+    "routers": ["react-router-dom", ""]
   }
 }
