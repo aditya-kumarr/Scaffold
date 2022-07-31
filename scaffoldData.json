@@ -1,0 +1,30 @@
+{
+  "primaryFolders": {
+    "parent": "src",
+    "folders": [
+      "components",
+      "containers",
+      "hooks",
+      "pages",
+      "reducers",
+      "styles",
+      "utils"
+    ]
+  },
+  "mainComponents": {
+    "parent": "src/components",
+    "folders": [
+      "navbar",
+      "hero",
+      "corousel",
+      "footer",
+      "forms",
+      "data",
+      "modal"
+    ]
+  },
+  "mainPages": {
+    "parent": "src/pages",
+    "folders": ["home", "about", "contact", "login", "register"]
+  }
+}
